@@ -1,0 +1,27 @@
+/* 
+    Adicione seu arquivo CSS no HTML através da tag <link> dentro do <head>
+    No CSS monte o código para receber as propriedades de cada classe e id definido anteriormente (“desafio1”; “lista1” e “lista2”).
+    Para os parágrafos atribua a cor do texto laranja (orange);
+    Para as listas: 
+    1) personalize os bullets e os números como desejar; 
+    2) atribua uma cor azul (em hexadecimal) para o texto;
+    3) atribua uma cor de sua preferência para o fundo (background) usando RGBA.
+*/
+
+.desafio1 {
+  color: orange;
+}
+
+#lista1,
+#lista2 {
+  color: #00f;
+  background-color: rgba(78, 78, 78, 0.5);
+}
+
+#lista1 {
+  list-style-type: lower-alpha;
+}
+
+#lista2 {
+  list-style-type: circle;
+}
